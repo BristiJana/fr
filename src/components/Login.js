@@ -36,8 +36,7 @@ function Login() {
         </Card.Header>
         {login && (
           <Card.Body>
-            <Card.Title>{data.name}</Card.Title>
-            <Card.Text>{data.email}</Card.Text>
+            <Card.Text>{data}</Card.Text>
           </Card.Body>
         )}
       </Card>
